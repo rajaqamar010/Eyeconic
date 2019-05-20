@@ -1,0 +1,42 @@
+/*Banner Css*/
+
+.banner{
+	background: url(../images/banner/sunglassesbanner.jpg);
+	background-size: 100% 100%;
+}
+
+.banner .brandItem {
+    background: rgba(255,255,255,0.70);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    height: 40px;
+}
+
+.banner .brandItem h3 {
+	line-height: 40px;
+	color: #333333;
+}
+
+/*Product Heading*/
+
+.menCatagory, .womenCatagory{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.buyContainer .headingLine{
+	width: 250px;
+}
+
+.buyContainer .womenline{
+	width: 285px;
+}
+
+
+@media screen and (max-width: 710px){
+	.brandItem {
+    	display: inline-block;
+	}
+}

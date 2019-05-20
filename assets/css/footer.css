@@ -1,0 +1,50 @@
+/*Footer Css*/
+
+footer{
+	height: 205px;
+	background: #333;
+}
+
+footer .container > div{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+footer .container div > h4{
+	color: #fff;
+	margin: 0 0 10px;
+}
+
+footer .container div > a{
+	color: #888;
+	margin: 5px 0;
+	display: block;
+}
+
+footer .container div > a:hover{
+	text-decoration: underline;
+}
+
+.copiRight{
+	height: 40px;
+	background: #555;
+	margin-top: 25px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 600px){
+	
+	footer {
+    	height: auto;
+	}
+	
+	footer .container > div {
+    	display: inline-block;
+    	width: 49%;
+	}
+}

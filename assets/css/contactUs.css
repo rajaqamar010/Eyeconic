@@ -1,0 +1,183 @@
+.contactUsheader{
+	background: #333;
+	color: #fff;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+}
+
+.contactUsheader span{
+	font-size: 17px;
+}
+
+.mainContactUsArea{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.mainContactUsArea > div{
+	width: 49%;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.leftSection, .rightSection{
+	text-align: left;
+}
+
+.mainContactUsArea > div h3{
+	color: #222;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.leftSection > div{
+	line-height: 40px;
+	margin: 10px 0;
+	margin-left: 25px;
+}
+
+.leftSection > div i{
+	font-size: 20px;
+	border: 2px solid #333;  
+	padding: 10px;
+	border-radius: 50%;
+	color: #333;
+}
+
+.leftSection .contactAddress i{
+	padding: 10px 12px;
+}
+
+.leftSection .contactEmail i{
+	padding: 8px 7px 10px;
+}
+
+.leftSection > div span{
+	color: #444;
+	font-size: 18px;
+}
+
+.leftSection > div span a{
+	color: #444;
+}
+
+.map{
+	width: 96%;
+	display: block;
+	height: 350px;
+	margin: 2% 2% 0;
+}
+
+.rightSection > p{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+	color: #444;
+	text-align: justify;
+}
+
+.rightSection form{
+	margin-left: 25px;
+}
+
+.rightSection form input[type="text"]{
+	width: 95%;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	padding-left: 5%;
+	border-radius: 2px;
+	border: 2px solid #888;
+	margin: 5px 0;
+	color: #888;
+}
+
+.rightSection form input[type="email"]{
+	width: 95%;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	padding-left: 5%;
+	border-radius: 2px;
+	border: 2px solid #888;
+	margin: 5px 0;
+	color: #888;
+}
+
+.rightSection form textarea{
+	margin: 5px 0;
+	max-width: 95%;
+	padding-left: 5%;
+	padding-top: 2%;
+	min-width: 95%;
+	min-height: 150px;
+	max-height: 250px;
+	border-radius: 2px;
+	border: 2px solid #888;
+	font-size: 15px;
+	font-weight: 600;
+	color: #888;
+}
+
+.rightSection form p{
+	color: #444;
+	margin: 5px 0;
+}
+
+.messageSubmit{
+	line-height: 25px;
+	background: #B8B8B8;
+	border: 2px solid #868686;color: #333;
+	font-weight: 600;
+	padding: 3px 25px;
+	margin-top: 5px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.messageSubmit:active{
+	transform: translateY(1px);
+}
+
+@media screen and (max-width: 830px){
+	
+	.mainContactUsArea > div{
+		width: 100%;
+		float: none;;
+	}
+	
+	.mainContactUsArea > div h3{
+		margin-left: 0;
+	}
+	
+	.leftSection > div{
+		margin-left: 0;
+	}
+	
+	.rightSection h3{
+		margin-left: 0;
+	}
+	
+	.rightSection p{
+		margin-left: 0;
+	}
+	
+	.rightSection form{
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.map{
+		height: 250px;
+	}
+
+}
